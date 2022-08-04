@@ -5,12 +5,13 @@ import { FacebookOutlined, TwitterOutlined,InstagramOutlined } from '@ant-design
 
 const IndexPage = () => {
   return (
-    <div align="center" style={{ padding: 80 }}>
+    <div align="center" style={{ paddingTop: 80,paddingBottom: 80 }}>
       <p
         style={{
           color: '#f8b500',
           fontSize: 50,
           fontWeight: 'bold',
+          lineHeight: 1.2,
         }}
       >
         mf-lab is coming soon!!!
